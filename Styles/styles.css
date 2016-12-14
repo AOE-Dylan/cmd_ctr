@@ -1,0 +1,42 @@
+#box{
+  height: 100px;
+  width: 100px;
+}
+
+#box2{
+  height: 100px;
+  width: 100px;
+}
+
+#troll{
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+    color: orange;
+    font-family: "AR BLANCA", Times, serif;
+    font-size: 40px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #19197B;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 700px;
+    border: 5px solid #DAA520;
+    -webkit-animation: animate_bg 7s;
+    animation: animate_bg 7s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate_bg {
+    0%   {background:#0C0CF6;}
+    33%  {background:#AA2CCD;}
+    66% {background:#2A33A7;}
+    100%{background:#0C0CF6;}
+}
+
+@-webkit-keyframes animate_bg {
+    0%   {background:#0C0CF6;}
+    33%  {background:#AA2CCD;}
+    66% {background:#2A33A7;}
+    100%{background:#0C0CF6;}
+}
+}
